@@ -1,4 +1,26 @@
 (() => {
+  document.querySelectorAll('a[href]').forEach(link => {
+    const destination = new URL(link.href, window.location.href);
+    if (!['http:', 'https:'].includes(destination.protocol)) return;
+    const samePageJump = destination.origin === window.location.origin &&
+      destination.pathname === window.location.pathname &&
+      destination.search === window.location.search && destination.hash;
+    if (samePageJump) return;
+
+    link.target = '_blank';
+    link.relList.add('noopener');
+    const notice = 'opens in a new tab';
+    link.title = link.title ? `${link.title} (${notice})` : notice;
+    const label = link.getAttribute('aria-label');
+    if (label) {
+      link.setAttribute('aria-label', `${label} (${notice})`);
+    } else {
+      const hint = document.createElement('span');
+      hint.className = 'visually-hidden';
+      hint.textContent = ` (${notice})`;
+      link.append(hint);
+    }
+  });
   const root = document.documentElement;
   const appearance = document.querySelector('.appearance-toggle');
   const updateThemeLabel = () => {
