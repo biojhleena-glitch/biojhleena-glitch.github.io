@@ -18,7 +18,7 @@ intro: Biomedical engineering, bioinspired nanomaterials, and therapeutic delive
 Biomedical Engineering, University of Connecticut  
 Advisor: Yupeng Chen
 
-RNA delivery, Janus base nanomaterials, and a cartilage-on-a-chip platform for osteoarthritis research.
+RNA delivery, Janus base nanomaterials, and engineered tissue models for osteoarthritis research.
 </div>
 
 <div class="timeline-item" markdown="1">

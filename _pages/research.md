@@ -2,12 +2,12 @@
 title: Research
 eyebrow: Materials → delivery → function
 permalink: /research/
-intro: Designing nanomaterials to cross biological barriers and deliver therapeutic cargo.
+intro: Engineering nanomaterials that connect molecular design with therapeutic action.
 ---
 
-My research connects **molecular design, therapeutic delivery, and disease biology**. I develop DNA-inspired Janus base nanomaterials to investigate how carriers reach cells within dense tissues and release their cargo inside those cells.
+A therapeutic molecule can only work if it reaches the right place. I engineer nanomaterials around two connected challenges: **moving through dense tissue and releasing therapeutic cargo inside cells**.
 
-The studies below bring this work into view—from intracellular RNA delivery to tumor transport and combination therapy.
+My work uses Janus base nanomaterials—small molecules that assemble through interactions inspired by DNA—to connect material structure with delivery and biological function. Three published studies trace this approach from RNA delivery to tissue transport and combination therapy.
 
 <nav class="research-jump-links" aria-label="Research themes">
   <a href="#rna-delivery--endosomal-escape">01 · RNA delivery</a>
@@ -20,9 +20,10 @@ The studies below bring this work into view—from intracellular RNA delivery to
     <span class="direction-number">01</span>
     <p class="research-status">PNAS · 2021 · First author</p>
     <h2 id="rna-delivery--endosomal-escape">RNA delivery &amp; endosomal escape</h2>
-    <p class="study-question">Helping RNA reach its site of action.</p>
-    <p>RNA can enter a cell and still remain trapped in an endosome. I investigate how DNA-inspired nanopieces help siRNA reach the cytoplasm, where it can silence a target gene.</p>
-    <p>Our study connected cellular imaging with gene-silencing and viability measurements to evaluate intracellular delivery. The published figure shows the path from endosomal escape to biological function.</p>
+    <p class="study-question">Getting RNA to the place where it can work.</p>
+    <p>Cells often trap incoming RNA inside membrane-bound compartments called endosomes. In my first-author study, I developed DNA-inspired nanopieces to help small interfering RNA (siRNA) reach the cytoplasm, where it can reduce expression of a target gene.</p>
+    <p class="study-outcome"><strong>Published finding.</strong> In cell experiments, the nanopieces improved endosomal escape relative to the lipid comparator and supported gene silencing with lower cell toxicity than the delivery agents tested.</p>
+    <p>This work connects carrier chemistry to a functional result: RNA that reaches its site of action. It provides a foundation for investigating intracellular delivery across therapeutic applications.</p>
     <p class="research-keywords">siRNA · Intracellular delivery · Gene silencing</p>
     <a class="text-link" href="https://doi.org/10.1073/pnas.2104511118">Read the paper ↗</a>
   </div>
@@ -37,9 +38,10 @@ The studies below bring this work into view—from intracellular RNA delivery to
     <span class="direction-number">02</span>
     <p class="research-status">Journal of Controlled Release · 2025<br>Co-first author</p>
     <h2 id="nanoparticle-design--tissue-transport">Nanoparticle design &amp; tissue transport</h2>
-    <p class="study-question">Connecting molecular assembly to delivery.</p>
-    <p>A carrier’s composition, assembly, and geometry can influence its path through tissue. I combine computation-informed formulation with experimental characterization to study these relationships.</p>
-    <p>We designed and evaluated rod-shaped Janus base nanoparticles for drug loading and delivery in tumor spheroids and an ovarian cancer xenograft model. The schematic connects molecular building blocks with the delivery strategy examined in the study.</p>
+    <p class="study-question">Designing carriers for difficult-to-reach tissue.</p>
+    <p>Dense tissue can keep a treatment from reaching the cells that need it. I co-led a study combining computational modeling, nanomaterial characterization, and biological testing to develop rod-shaped Janus base nanoparticles for drug delivery.</p>
+    <p class="study-outcome"><strong>Published finding.</strong> The rod-shaped formulations improved penetration and tumor targeting relative to non-rod-shaped and liposomal comparators in the ovarian cancer models studied. Drug-loaded carriers also reduced tumor burden in a mouse xenograft model.</p>
+    <p>The results make carrier geometry and molecular assembly practical variables to investigate alongside composition. They motivate testing which design features improve delivery in other tissue environments.</p>
     <p class="research-keywords">Self-assembly · Rod-shaped carriers · Tumor penetration</p>
     <a class="text-link" href="https://doi.org/10.1016/j.jconrel.2025.114169">Read the paper ↗</a>
   </div>
@@ -54,9 +56,10 @@ The studies below bring this work into view—from intracellular RNA delivery to
     <span id="rna-therapeutics--engineered-tissue-models" class="direction-number">03</span>
     <p class="research-status">Materials Today Advances · 2026<br>Co-corresponding author</p>
     <h2 id="combination-therapy--cancer-models">Combination therapy &amp; cancer models</h2>
-    <p class="study-question">Bringing two therapeutic cargos together.</p>
-    <p>Drug resistance can limit chemotherapy. Our work investigates co-delivery of doxorubicin and siRNA targeting a multidrug-resistance pathway using Janus base nanomaterials.</p>
-    <p>We studied cargo delivery, endosomal escape, gene silencing, and treatment response in preclinical ovarian cancer models. The published schematic summarizes the co-assembly strategy and proposed intracellular mechanism.</p>
+    <p class="study-question">Pairing chemotherapy with a second line of attack.</p>
+    <p>Cancer cells can resist chemotherapy by pumping drugs back out. As co-corresponding author, I helped develop and evaluate sphere-like Janus base nanoparticles that package doxorubicin with siRNA targeting MDR1, a gene involved in drug resistance.</p>
+    <p class="study-outcome"><strong>Published finding.</strong> Co-delivery supported MDR1 silencing and increased cancer-cell apoptosis in cell and spheroid experiments. The formulation also showed antitumor activity in an ovarian cancer mouse model.</p>
+    <p>This preclinical study connects two functions in one carrier: delivering a drug and suppressing a resistance pathway. It informs my interest in designing delivery systems around complementary therapeutic mechanisms.</p>
     <p class="research-keywords">Drug–siRNA co-delivery · Multidrug resistance · Preclinical cancer models</p>
     <a class="text-link" href="https://doi.org/10.1016/j.mtadv.2026.100845">Read the paper ↗</a>
   </div>
@@ -70,11 +73,19 @@ The studies below bring this work into view—from intracellular RNA delivery to
 <p class="research-status">Looking ahead</p>
 <h2 id="vision-title">Future research vision</h2>
 
-My long-term goal is to develop targeted RNA nanomedicines for inflammatory and degenerative diseases. Building on these published studies, I aim to connect material design with disease-relevant tissue models and measurements of therapeutic function.
+My goal is to establish an independent research program in **targeted RNA nanomedicine for inflammatory and degenerative diseases**. Building on my experience in therapeutic delivery, I plan to pursue three connected directions:
+
+- **Material design for biological barriers.** Link carrier composition, assembly, and geometry to tissue transport and intracellular release.
+- **Disease-relevant models.** Use engineered tissue models to connect nanoparticle distribution with cellular responses and therapeutic function.
+- **Targeted RNA therapeutics.** Evaluate RNA delivery as a way to influence disease processes while measuring efficacy, tolerability, and the limits of each approach.
+
+The aim is to develop a clearer relationship between what a carrier is made of, where it goes, and what its cargo does.
 </section>
 
 ## Collaboration & translation
 
-My work combines nanomaterial synthesis, formulation, imaging, and biological evaluation with collaborations across engineering and disease biology. I also serve as coordinating investigator for a multi-institutional International Space Station spatial-omics collaboration involving UConn, UC Davis, Eascra Biotechnologies, Axiom Space, the ISS National Laboratory, and NASA.
+Moving a delivery technology forward requires more than a formulation. My experience spans nanomaterial synthesis, imaging, biological evaluation, and collaboration across engineering and disease biology. I am also a named inventor on a U.S. patent licensed by UConn to Eascra Biotechnologies.
+
+As coordinating investigator for a multi-institutional International Space Station spatial-omics collaboration, I work across UConn, UC Davis, Eascra Biotechnologies, Axiom Space, the ISS National Laboratory, and NASA. These experiences inform the collaborative research program I aim to build.
 
 [Explore all publications]({{ '/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=5KHBwwkAAAAJ&hl=en) · [Get in touch]({{ '/contact/' | relative_url }})
