@@ -59,7 +59,7 @@ GPCR-based FRET biosensors for neurotransmitter detection.
 Orthopaedic Research Society / Orland Bethel Family Musculoskeletal Research Center  
 $20,000 · Awarded · October 2026–September 2027
 
-*Dual-Action Atsttrin mRNA Therapy via Janus Base Nanoparticle for Osteoarthritis in a Human Cartilage-on-a-Chip Model.* Co-investigators: Yupeng Chen and Chuan-Ju Liu.
+Co-investigators: Yupeng Chen and Chuan-Ju Liu.
 
 ## Selected awards
 

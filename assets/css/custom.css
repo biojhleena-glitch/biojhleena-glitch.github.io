@@ -107,6 +107,22 @@ main { outline: none; }
 .research-illustration figcaption { font-size: 12px; color: var(--muted); line-height: 1.7; margin-top: 12px; }
 .research-direction h2 { margin-top: 0; font-size: 31px; scroll-margin-top: 25px; }
 .research-direction .direction-number { margin-bottom: 16px; }
+.research-jump-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 28px 0 10px; font-size: 13px; }
+.research-jump-links a { padding: 6px 0; }
+.published-study { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.4fr); gap: 40px; align-items: start; padding-top: 42px; padding-bottom: 22px; }
+.published-study::after { display: none; }
+.published-study h2 { scroll-margin-top: 120px; }
+.study-copy p { font-size: 15px; line-height: 1.8; }
+.study-copy .research-status { font-size: 10px; line-height: 1.8; }
+.study-copy .study-question { font-size: 18px; line-height: 1.5; font-weight: 600; color: var(--ink); }
+.study-copy .research-keywords { font-size: 12px; }
+.study-figure { margin: 0; min-width: 0; }
+.study-image { display: block; padding: 14px; border: 1px solid var(--line); background: #fff; }
+.study-image img { display: block; width: 100%; height: auto; max-height: 640px; object-fit: contain; }
+.study-figure figcaption { padding: 16px 0 0; font-size: 12px; line-height: 1.75; color: var(--muted); }
+.study-figure figcaption strong { color: var(--ink); }
+.figure-credit { display: inline-block; margin-top: 6px; font-size: 11px; }
+.figure-expand { display: block; width: fit-content; padding: 10px 0; font-size: 12px; font-weight: 600; }
 .research-keywords { color: var(--accent); font-size: 13px; }
 .research-status { color: var(--accent); font-size: 11px; font-weight: 650; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 15px; }
 .future-vision { margin-top: 44px; padding: 34px 36px; background: var(--soft); border-top: 3px solid var(--gold); scroll-margin-top: 25px; }
@@ -182,6 +198,10 @@ th { background: var(--soft); font-size: 13px; color: var(--ink); font-weight: 6
   .research-overview h3 { font-size: 21px; }
 }
 @media (max-width: 850px) {
+  .published-study { grid-template-columns: 1fr; gap: 25px; }
+  .study-copy p { font-size: 16px; }
+  .study-figure { width: 100%; max-width: 650px; }
+  .study-image { padding: 10px; }
   .header-inner { min-height: 92px; flex-wrap: wrap; padding: 22px 6%; gap: 0; }
   .wordmark { font-size: 25px; }
   .primary-links { width: 100%; order: 4; margin: 18px 0 0; justify-content: space-between; flex-wrap: wrap; gap: 14px; }

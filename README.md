@@ -36,9 +36,13 @@ When adding a publication, update its record, detail page, and `files/publicatio
 
 The current design uses Helvetica-style typography, a horizontal navigation menu, and a navy introduction with research artwork beside the title. The artwork retains its full square composition on desktop and mobile. All active styles are in `assets/css/custom.css`. The original Academic Pages stylesheet is retained as `assets/css/main.css` but is not loaded by this design.
 
-The homepage and endosomal-escape research section use `images/rna-delivery-illustration.png`, selected from the user-supplied journal cover illustration folder (Version 2.png). It is displayed unchanged and labeled as a conceptual research illustration; the site does not claim that it was a published journal cover. To replace it, update the image references, dimensions, alt text, and captions in `_pages/about.html` and `_pages/research.md`. The earlier AI-generated banner is retained as `images/research-banner.png` but is no longer displayed.
+The homepage uses `images/rna-delivery-illustration.png`, selected from the user-supplied journal cover illustration folder (Version 2.png). It is displayed unchanged and labeled as a conceptual research illustration; the site does not claim that it was a published journal cover. To replace it, update the image references, dimensions, alt text, and captions in `_pages/about.html`. The earlier AI-generated banner is retained as `images/research-banner.png` but is no longer displayed.
 
 The homepage and footer contain the displayed biography and affiliation. Edit `_pages/about.html`, `_includes/masthead.html`, and `_includes/footer.html` when changing those details.
+
+## Published research figures
+
+The Research page features three unaltered figures from peer-reviewed publications: PNAS (2021), Figure 2; Journal of Controlled Release (2025), Figure 1; and Materials Today Advances (2026), Figure 1. Each figure includes a source link, author attribution, CC BY 4.0 license link, and a full-size view. Images are stored locally in `images/`; captions and research summaries are in `_pages/research.md`. The homepage retains the separate conceptual illustration.
 
 ## Local preview
 
