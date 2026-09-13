@@ -32,11 +32,11 @@ See **SETUP.md** for publishing and editing. Review your biography and CV before
 
 When adding a publication, update its record, detail page, and `files/publications.bib`. Update the publication count on the Publications page as needed. The homepage is intentionally brief and links to the full publication list.
 
-## Design and banner
+## Design and research illustration
 
-The current design uses Helvetica-style typography, a horizontal navigation menu, a wide conceptual research banner, and a single-column layout. All active styles are in `assets/css/custom.css`. The original Academic Pages stylesheet is retained as `assets/css/main.css` but is not loaded by this design.
+The current design uses Helvetica-style typography, a horizontal navigation menu, and a navy introduction with research artwork beside the title. The artwork retains its full square composition on desktop and mobile. All active styles are in `assets/css/custom.css`. The original Academic Pages stylesheet is retained as `assets/css/main.css` but is not loaded by this design.
 
-The homepage banner is `images/research-banner.png`, an original AI-generated conceptual illustration of rod-shaped molecular assemblies. It is decorative, not a chemical structure or experimental result. To replace it, upload a landscape image and update the image reference and dimensions in `_pages/about.html`. The banner caption should identify conceptual art when appropriate.
+The homepage and endosomal-escape research section use `images/rna-delivery-illustration.png`, selected from the user-supplied journal cover illustration folder (Version 2.png). It is displayed unchanged and labeled as a conceptual research illustration; the site does not claim that it was a published journal cover. To replace it, update the image references, dimensions, alt text, and captions in `_pages/about.html` and `_pages/research.md`. The earlier AI-generated banner is retained as `images/research-banner.png` but is no longer displayed.
 
 The homepage and footer contain the displayed biography and affiliation. Edit `_pages/about.html`, `_includes/masthead.html`, and `_includes/footer.html` when changing those details.
 

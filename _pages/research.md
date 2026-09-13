@@ -16,6 +16,11 @@ My long-term goal is to develop targeted RNA nanomedicines for inflammatory and 
 
 <p class="research-status">Published research</p>
 
+<figure class="research-illustration">
+  <a href="{{ '/images/rna-delivery-illustration.png' | relative_url }}" aria-label="View the full RNA delivery illustration"><img src="{{ '/images/rna-delivery-illustration.png' | relative_url }}" width="1300" height="1300" alt="Conceptual illustration of rod-shaped nanocarriers, RNA, and endosomal compartments inside a cell" loading="lazy" decoding="async"></a>
+  <figcaption>RNA delivery and endosomal escape.<br>Conceptual research illustration. <a href="{{ '/images/rna-delivery-illustration.png' | relative_url }}">View full image ↗</a></figcaption>
+</figure>
+
 Getting RNA into a cell is only part of the challenge. It must also escape the endosome, a membrane-bound compartment that can trap the cargo. I investigate how Janus base nanopieces package RNA and support its release into the cytoplasm, where it can act.
 
 In my first-author [PNAS study (2021)](https://doi.org/10.1073/pnas.2104511118), I developed and evaluated DNA-inspired carriers for siRNA delivery, including uptake, endosomal escape, and functional gene silencing. This work informs how I design and test new RNA formulations.
