@@ -1,0 +1,19 @@
+{% if site.author.avatar and site.author.avatar != '' %}
+<img class="profile-photo" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="Jinhyung Lee" width="160" height="160">
+{% else %}
+<div class="profile-monogram" aria-hidden="true"><span>JL</span><span class="monogram-orbit"></span></div>
+{% endif %}
+<p class="profile-name">Jinhyung Lee<span>Ph.D.</span></p>
+<p class="profile-role">Postdoctoral Research Associate</p>
+<p class="profile-affiliation">Biomedical Engineering<br><a href="https://bme.uconn.edu/">University of Connecticut</a></p>
+<p class="profile-location"><span aria-hidden="true">⌖</span> Storrs, Connecticut</p>
+<div class="profile-rule"></div>
+<p class="sidebar-label">Research interests</p>
+<ul class="interest-list"><li>RNA delivery</li><li>DNA-inspired nanomaterials</li><li>Translational bioengineering</li></ul>
+<div class="profile-links">
+  <a href="mailto:{{ site.author.email }}"><span aria-hidden="true">✉</span> Email</a>
+  <a href="{{ site.author.orcid }}"><span class="orcid-icon" aria-hidden="true">iD</span> ORCID <span class="external-arrow" aria-hidden="true">↗</span></a>
+  <a href="{{ '/files/Jinhyung-Lee-CV.pdf' | relative_url }}"><span aria-hidden="true">↓</span> Download CV <span class="filetype">PDF</span></a>
+  {% if site.author.github and site.author.github != '' %}<a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
+</div>
+<p class="sidebar-note">Engineering materials.<br>Understanding delivery.<br>Advancing therapeutics.</p>

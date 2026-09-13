@@ -1,0 +1,6 @@
+<article class="publication-item" data-publication data-kind="{{ p.kind }}" data-year="{{ p.year }}">
+<div class="publication-meta"><span>{{ p.journal }}</span><span>{{ p.year }}</span></div>
+<h3><a href="{{ p.slug | prepend: '/publications/' | append: '/' | relative_url }}">{{ p.title }}</a></h3>
+<p class="publication-authors">{{ p.authors | escape | replace: 'Lee J', '<strong>Lee J</strong>' }}</p>
+<div class="publication-actions">{% if p.role != '' %}<span class="badge">{{ p.role }}</span>{% endif %}<a href="https://doi.org/{{ p.doi }}" aria-label="Read {{ p.title | escape }}">Read paper <span aria-hidden="true">↗</span></a></div>
+</article>

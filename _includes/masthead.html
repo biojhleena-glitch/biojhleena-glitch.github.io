@@ -1,0 +1,13 @@
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <nav class="header-inner" aria-label="Main navigation">
+    <a class="wordmark" href="{{ '/' | relative_url }}"><span class="wordmark-icon" aria-hidden="true">jl.</span><span>Jinhyung Lee<span class="wordmark-degree">, Ph.D.</span></span></a>
+    <button class="menu-toggle" type="button" aria-controls="primary-links" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
+    <div class="primary-links" id="primary-links">
+      {% for link in site.data.navigation.main %}
+      <a href="{{ link.url | relative_url }}" {% if page.url == link.url or link.url == '/publications/' and page.collection == 'publications' %}aria-current="page"{% endif %}>{{ link.title }}</a>
+      {% endfor %}
+    </div>
+    <button class="appearance-toggle" type="button" aria-label="Switch to dark appearance" title="Switch appearance"><span aria-hidden="true">◐</span></button>
+  </nav>
+</header>
