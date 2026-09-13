@@ -3,6 +3,6 @@
 {% include seo.html %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#092751">
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <script>document.documentElement.classList.replace('no-js','js');try{if(localStorage.getItem('jl-theme')==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script>
 <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
