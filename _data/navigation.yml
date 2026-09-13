@@ -1,0 +1,13 @@
+main:
+  - title: About
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Mentoring
+    url: /mentoring/
+  - title: CV
+    url: /cv/
+  - title: Contact
+    url: /contact/

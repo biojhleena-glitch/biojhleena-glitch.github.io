@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "2026-endosomal-escape-co-delivery",
+    "year": 2026,
+    "kind": "research",
+    "journal": "Materials Today Advances",
+    "title": "Enhanced endosomal escape for nanoparticle-enabled co-delivery of doxorubicin and siRNA to overcome multidrug resistance",
+    "authors": "Zhai J†, Surian A†, Cote T, Zhang W, Dang BT, Wang Y, Chen Q, Hoshino K, Lee J*, Chen Y*",
+    "volume": "30:100845",
+    "doi": "10.1016/j.mtadv.2026.100845",
+    "role": "Co-corresponding author",
+    "selected": true,
+    "summary": "A Janus base nanoparticle platform for co-delivering doxorubicin and siRNA, evaluated in preclinical models of drug-resistant cancer."
+  },
+  {
+    "slug": "2025-rod-shaped-nanoparticles",
+    "year": 2025,
+    "kind": "research",
+    "journal": "Journal of Controlled Release",
+    "title": "Computation-aided design of rod-shaped nanoparticles for tumoral targeting",
+    "authors": "Lee J†, Zhang W†, Nguyen D, Zhou L, Amengual J, Zhai J, Cote T, Landolina M, Ahmadi E, Sands I, Mishra N, Yu H, Nieh MP, Wang K*, Li Y*, Chen Y*",
+    "volume": "387:114169",
+    "doi": "10.1016/j.jconrel.2025.114169",
+    "role": "Co-first author",
+    "selected": true,
+    "summary": "Computation-aided formulation of rod-shaped nanocarriers to investigate tumor penetration and therapeutic delivery."
+  },
+  {
+    "slug": "2021-homeostatic-tissue-constructs",
+    "year": 2021,
+    "kind": "research",
+    "journal": "ACS Applied Materials & Interfaces",
+    "title": "Controlled self-assembly of DNA-mimicking nanotubes to form a layer-by-layer scaffold for homeostatic tissue constructs",
+    "authors": "Zhou L, Zhang W, Lee J, Kuhn L, Chen Y*",
+    "volume": "13(43):51321–51332",
+    "doi": "10.1021/acsami.1c13345",
+    "role": "Cover article",
+    "selected": false,
+    "summary": "Self-assembled DNA-mimicking nanotubes as a scaffold for engineered tissue constructs."
+  },
+  {
+    "slug": "2021-dna-inspired-endosomal-escape",
+    "year": 2021,
+    "kind": "research",
+    "journal": "PNAS",
+    "title": "DNA-inspired nanomaterials for enhanced endosomal escape",
+    "authors": "Lee J, Sands I, Zhang W, Zhou L, Chen Y*",
+    "volume": "118(19):e2104511118",
+    "doi": "10.1073/pnas.2104511118",
+    "role": "First author",
+    "selected": true,
+    "summary": "DNA-inspired Janus base nanomaterials designed to address endosomal escape, a key barrier to intracellular RNA delivery."
+  },
+  {
+    "slug": "2021-protein-delivery-review",
+    "year": 2021,
+    "kind": "review",
+    "journal": "Pharmaceutics",
+    "title": "Nanomaterials for protein delivery in anticancer applications",
+    "authors": "Yau A†, Lee J†, Chen Y*",
+    "volume": "13(2):155",
+    "doi": "10.3390/pharmaceutics13020155",
+    "role": "Co-first author",
+    "selected": false,
+    "summary": "A review of nanomaterial strategies for delivering therapeutic proteins in cancer applications."
+  },
+  {
+    "slug": "2020-bioengineered-microtissues",
+    "year": 2020,
+    "kind": "research",
+    "journal": "Bioactive Materials",
+    "title": "Studies of nanoparticle delivery with in vitro bio-engineered microtissues",
+    "authors": "Sun M, Lee J, Chen Y, Hoshino K",
+    "volume": "5(4):924–937",
+    "doi": "10.1016/j.bioactmat.2020.06.016",
+    "role": "",
+    "selected": false,
+    "summary": "Bio-engineered microtissues as an experimental platform for studying nanoparticle delivery."
+  },
+  {
+    "slug": "2020-extracellular-matrix-penetration",
+    "year": 2020,
+    "kind": "research",
+    "journal": "MRS Advances",
+    "title": "RNA delivery via DNA-inspired Janus base nanotubes for extracellular matrix penetration",
+    "authors": "Sands I, Lee J, Zhang W, Chen Y*",
+    "volume": "5(16):815–823",
+    "doi": "10.1557/adv.2020.47",
+    "role": "",
+    "selected": false,
+    "summary": "DNA-inspired Janus base nanotubes investigated for RNA transport through extracellular matrix barriers."
+  }
+]
