@@ -7,6 +7,14 @@
       destination.search === window.location.search && destination.hash;
     if (samePageJump) return;
 
+    const local = destination.origin === window.location.origin;
+    const publication = ['doi.org', 'dx.doi.org'].includes(destination.hostname) ||
+      (destination.hostname === 'pmc.ncbi.nlm.nih.gov' && destination.pathname.startsWith('/articles/')) ||
+      (local && /^\/publications\/[^/]+\/?$/.test(destination.pathname));
+    const cv = local && (/^\/cv\/?$/.test(destination.pathname) ||
+      destination.pathname === '/files/Jinhyung-Lee-CV.pdf');
+    if ((!publication && !cv) || link.hasAttribute('download')) return;
+
     link.target = '_blank';
     link.relList.add('noopener');
     const notice = 'opens in a new tab';
