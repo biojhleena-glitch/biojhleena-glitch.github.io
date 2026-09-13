@@ -3,22 +3,32 @@ title: "RNA delivery & bioinspired nanomaterials"
 permalink: /
 home: true
 ---
-<section class="intro-section">
-  <p class="eyebrow"><span class="eyebrow-line"></span> Bioinspired materials · RNA therapeutics</p>
-  <h1>Engineering nanomaterials.<br><em>Enabling therapeutic delivery.</em></h1>
-  <p class="intro-lead">I study how the design of a nanomaterial shapes its journey through tissues and into cells.</p>
-  <p>I’m a postdoctoral researcher in Biomedical Engineering at the University of Connecticut. My work brings together DNA-inspired chemistry, RNA delivery, and engineered tissue models to address barriers in cancer and osteoarthritis treatment.</p>
-  <div class="button-row"><a class="button button-primary" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a><a class="button button-quiet" href="{{ '/files/Jinhyung-Lee-CV.pdf' | relative_url }}">Download CV <span aria-hidden="true">↓</span></a></div>
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="hero-media"><img src="{{ '/images/research-banner.png' | relative_url }}" width="1983" height="793" alt="" fetchpriority="high"><span class="image-caption">Nanomaterials · Concept illustration</span></div>
+  <div class="hero-card">
+    <p class="eyebrow">Bioinspired materials · RNA therapeutics</p>
+    <h1 id="home-title">Jinhyung Lee<span>, Ph.D.</span></h1>
+    <p class="hero-tagline">Designing nanomaterials.<br>Advancing therapeutic delivery.</p>
+    <a class="button button-primary" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a>
+  </div>
 </section>
-<section class="research-feature" aria-labelledby="feature-title">
-  <div class="feature-copy"><p class="eyebrow">At the intersection</p><h2 id="feature-title">From molecular design<br>to biological function.</h2><p>Understanding how assembly, shape, and chemistry influence delivery is the thread connecting my research.</p><a class="text-link" href="{{ '/research/' | relative_url }}">Three research directions <span aria-hidden="true">↗</span></a></div>
-  <div class="feature-art">{% include nano-art.html %}<span class="art-caption">DNA-inspired nanomaterials · Concept illustration</span></div>
+
+<section class="home-intro content-width" aria-labelledby="intro-title">
+  <div><p class="eyebrow">About me</p><h2 id="intro-title">From molecular design<br> to biological function.</h2></div>
+  <div class="intro-copy"><p>I’m a postdoctoral researcher in Biomedical Engineering at the University of Connecticut. I study how the design of a nanomaterial shapes its journey through tissues and into cells.</p><p>My work brings together DNA-inspired chemistry, RNA delivery, and engineered tissue models to address barriers in cancer and osteoarthritis treatment.</p><a class="text-link" href="{{ '/cv/' | relative_url }}">Experience &amp; background <span aria-hidden="true">↗</span></a></div>
 </section>
-<section class="updates" aria-labelledby="updates-title"><div class="section-heading"><h2 id="updates-title">Recent updates</h2><span class="section-kicker">2026</span></div>
-  <div class="update-row"><time datetime="2026-09">SEP 2026</time><p><span class="update-tag">Fellowship</span>Selected for the <a href="https://www.bethel.pitt.edu/2026/09/03/advancing-discovery-bmrc-welcomes-its-newest-cohort-of-bethel-fellows/">2026–2027 ORS/Bethel Fellowship</a> to study Atsttrin mRNA therapy for osteoarthritis. The award begins in October 2026.</p></div>
-  <div class="update-row"><time datetime="2026-06">JUN 2026</time><p><span class="update-tag">Publication</span>Our study on doxorubicin and siRNA co-delivery is published in <a href="https://doi.org/10.1016/j.mtadv.2026.100845"><em>Materials Today Advances</em></a>.</p></div>
+
+<section class="home-research" aria-labelledby="directions-title"><div class="content-width">
+  <div class="section-heading"><div><p class="eyebrow">Research</p><h2 id="directions-title">Three connected directions.</h2></div><a class="text-link" href="{{ '/research/' | relative_url }}">Discover the research <span aria-hidden="true">→</span></a></div>
+  <div class="research-grid">
+    <a class="research-overview" href="{{ '/research/#rna-delivery--endosomal-escape' | relative_url }}"><span class="direction-number">01</span><h3>RNA delivery &amp;<br> endosomal escape</h3><p>Helping therapeutic cargo reach the intracellular compartment where it can act.</p><span class="research-arrow" aria-hidden="true">↗</span></a>
+    <a class="research-overview" href="{{ '/research/#nanoparticle-design--tissue-transport' | relative_url }}"><span class="direction-number">02</span><h3>Nanoparticle design &amp;<br> tissue transport</h3><p>Understanding how assembly and geometry shape delivery across biological barriers.</p><span class="research-arrow" aria-hidden="true">↗</span></a>
+    <a class="research-overview" href="{{ '/research/#rna-therapeutics--engineered-tissue-models' | relative_url }}"><span class="direction-number">03</span><h3>RNA therapeutics &amp;<br> engineered tissue models</h3><p>Connecting material design with human tissue models for osteoarthritis research.</p><span class="research-arrow" aria-hidden="true">↗</span></a>
+  </div>
+</div></section>
+
+<section class="home-news content-width" aria-labelledby="news-title">
+  <div class="section-heading"><div><p class="eyebrow">News</p><h2 id="news-title">Recent updates.</h2></div><a class="text-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a></div>
+  <div class="update-row"><time datetime="2026-09">SEP 2026</time><p>Selected for the <a href="https://www.bethel.pitt.edu/2026/09/03/advancing-discovery-bmrc-welcomes-its-newest-cohort-of-bethel-fellows/">2026–2027 ORS/Bethel Fellowship</a> to study Atsttrin mRNA therapy for osteoarthritis. The award begins in October 2026.</p></div>
+  <div class="update-row"><time datetime="2026-06">JUN 2026</time><p>Our study on doxorubicin and siRNA co-delivery is published in <a href="https://doi.org/10.1016/j.mtadv.2026.100845"><em>Materials Today Advances</em></a>.</p></div>
 </section>
-<section aria-labelledby="selected-title"><div class="section-heading"><h2 id="selected-title">Selected publications</h2><a class="text-link" href="{{ '/publications/' | relative_url }}">View all 7 <span aria-hidden="true">→</span></a></div>
-{% for p in site.data.publications %}{% if p.selected %}{% include publication-item.html %}{% endif %}{% endfor %}
-</section>
-<section class="contact-strip"><div><p class="eyebrow">Let’s connect</p><h2>Interested in working together?</h2><p>I welcome conversations about RNA delivery, biomaterials, and translational research.</p></div><a class="button button-primary" href="mailto:{{ site.author.email }}">Get in touch <span aria-hidden="true">↗</span></a></section>
