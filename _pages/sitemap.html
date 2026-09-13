@@ -1,0 +1,6 @@
+---
+title: Sitemap
+permalink: /sitemap/
+---
+<ul>{% for link in site.data.navigation.main %}<li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>{% endfor %}</ul>
+<h2>Publications</h2><ul>{% for p in site.data.publications %}<li><a href="{{ p.slug | prepend: '/publications/' | append: '/' | relative_url }}">{{ p.title }}</a></li>{% endfor %}</ul>
