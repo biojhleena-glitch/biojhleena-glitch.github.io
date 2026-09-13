@@ -1,0 +1,82 @@
+# Academic website for biojhleena-glitch.github.io.
+locale: en-US
+site_theme: default
+title: Jinhyung Lee
+title_separator: "—"
+name: Jinhyung Lee
+description: "Jinhyung Lee, Ph.D. — RNA delivery, DNA-inspired nanomaterials, and translational bioengineering at the University of Connecticut."
+url: "https://biojhleena-glitch.github.io"
+baseurl: ""
+repository: "biojhleena-glitch/biojhleena-glitch.github.io"
+author:
+  name: "Jinhyung Lee, Ph.D."
+  avatar: ""
+  bio: "Postdoctoral Research Associate"
+  employer: "University of Connecticut"
+  location: "Storrs, Connecticut"
+  email: "jinhyung.lee@uconn.edu"
+  orcid: "https://orcid.org/0000-0002-8058-3511"
+  github: "biojhleena-glitch"
+social:
+  type: Person
+  name: Jinhyung Lee
+  links:
+    - https://orcid.org/0000-0002-8058-3511
+atom_feed:
+  hide: true
+analytics:
+  provider: false
+comments:
+  provider: false
+include: [_pages, files]
+exclude:
+  - .github
+  - .bundle
+  - .sass-cache
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
+  - SETUP.md
+  - CONTENT-NOTES.md
+  - AGENTS.md
+  - LICENSE
+  - Dockerfile
+  - docker-compose.yaml
+  - _config_docker.yml
+  - _config_github.yml
+  - assets/js/vendor
+  - assets/js/plugins
+  - assets/js/_main.js
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: profile
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:title/
+timezone: America/New_York
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
