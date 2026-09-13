@@ -1,0 +1,12 @@
+---
+layout: profile
+---
+<p class="publication-venue">{{ page.journal }} · {{ page.year }} · {{ page.volume }}</p>
+<p class="publication-authors">{{ page.authors | escape }}</p>
+{% if page.role != '' %}<p><span class="badge">{{ page.role }}</span></p>{% endif %}
+<div class="article-copy">{{ content }}</div>
+<a class="button button-primary" href="https://doi.org/{{ page.doi }}">Read publication <span aria-hidden="true">↗</span></a>
+<h2>Citation</h2>
+<p class="citation-text">{{ page.authors | escape }}. {{ page.title }}. <em>{{ page.journal }}</em>. {{ page.year }};{{ page.volume }}. doi:{{ page.doi }}.</p>
+<p class="small-note">† Equal contribution. * Corresponding author.</p>
+<p><a href="{{ '/publications/' | relative_url }}">← All publications</a></p>
