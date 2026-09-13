@@ -4,12 +4,17 @@ permalink: /
 home: true
 ---
 <section class="home-hero" aria-labelledby="home-title">
-  <div class="hero-media"><img src="{{ '/images/research-banner.png' | relative_url }}" width="1983" height="793" alt="" fetchpriority="high"><span class="image-caption">Nanomaterials · Concept illustration</span></div>
-  <div class="hero-card">
-    <p class="eyebrow">Bioinspired materials · RNA therapeutics</p>
-    <h1 id="home-title">Jinhyung Lee<span>, Ph.D.</span></h1>
-    <p class="hero-tagline">Designing nanomaterials.<br>Advancing therapeutic delivery.</p>
-    <a class="button button-primary" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a>
+  <div class="hero-inner">
+    <div class="hero-card">
+      <p class="eyebrow">Bioinspired materials · RNA therapeutics</p>
+      <h1 id="home-title">Jinhyung Lee<span>, Ph.D.</span></h1>
+      <p class="hero-tagline">Designing nanomaterials.<br>Advancing therapeutic delivery.</p>
+      <div class="hero-actions"><a class="button button-primary" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a><a class="hero-about" href="#about">About me <span aria-hidden="true">↓</span></a></div>
+    </div>
+    <figure class="hero-media">
+      <img src="{{ '/images/rna-delivery-illustration.png' | relative_url }}" width="1300" height="1300" alt="Conceptual illustration of green rod-shaped nanocarriers and orange RNA within a blue cell and its endosomes" fetchpriority="high">
+      <figcaption class="image-caption">RNA delivery &amp; endosomal escape · Research illustration</figcaption>
+    </figure>
   </div>
 </section>
 
