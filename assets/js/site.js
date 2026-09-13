@@ -1,5 +1,6 @@
 (() => {
   document.querySelectorAll('a[href]').forEach(link => {
+    if (link.target === '_self') return;
     const destination = new URL(link.href, window.location.href);
     if (!['http:', 'https:'].includes(destination.protocol)) return;
     const samePageJump = destination.origin === window.location.origin &&
@@ -11,8 +12,7 @@
     const publication = ['doi.org', 'dx.doi.org'].includes(destination.hostname) ||
       (destination.hostname === 'pmc.ncbi.nlm.nih.gov' && destination.pathname.startsWith('/articles/')) ||
       (local && /^\/publications\/[^/]+\/?$/.test(destination.pathname));
-    const cv = local && (/^\/cv\/?$/.test(destination.pathname) ||
-      destination.pathname === '/files/Jinhyung-Lee-CV.pdf');
+    const cv = local && destination.pathname === '/files/Jinhyung-Lee-CV.pdf';
     if ((!publication && !cv) || link.hasAttribute('download')) return;
 
     link.target = '_blank';
