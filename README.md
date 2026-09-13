@@ -4,7 +4,7 @@ A personalized academic website based on [Academic Pages](https://github.com/aca
 
 ## Included
 
-- About, Research, Publications, Mentoring, CV, and Contact pages.
+- Home, Research, Publications, Mentoring, CV, and Contact pages.
 - Seven publication records with DOI links and a BibTeX download.
 - Search and publication-type filters; readable content when JavaScript is disabled.
 - Responsive navigation, keyboard access, and a light/dark appearance switch.
@@ -18,7 +18,7 @@ See **SETUP.md** for publishing and editing. Review your biography and CV before
 
 | What to change | Where to edit |
 | --- | --- |
-| Name, email, ORCID, portrait, website address | `_config.yml` |
+| Site name, email, ORCID, website address | `_config.yml` |
 | Navigation | `_data/navigation.yml` |
 | Homepage | `_pages/about.html` |
 | Research | `_pages/research.md` |
@@ -30,11 +30,15 @@ See **SETUP.md** for publishing and editing. Review your biography and CV before
 | Contact | `_pages/contact.md` |
 | Colors and layout | `assets/css/custom.css` |
 
-When adding a publication, update its record, detail page, and `files/publications.bib`. Mark `selected: true` to show it on the homepage. Update the publication count on the homepage and Publications page as needed.
+When adding a publication, update its record, detail page, and `files/publications.bib`. Update the publication count on the Publications page as needed. The homepage is intentionally brief and links to the full publication list.
 
-For a portrait, add a square photograph to `images/portrait.jpg` and set `author.avatar` to `portrait.jpg` in `_config.yml`. The initials design appears until a portrait is added.
+## Design and banner
 
-The original Academic Pages theme styles are included as `assets/css/main.css`. Personal styling is in `assets/css/custom.css`; both are editable.
+The current design uses Helvetica-style typography, a horizontal navigation menu, a wide conceptual research banner, and a single-column layout. All active styles are in `assets/css/custom.css`. The original Academic Pages stylesheet is retained as `assets/css/main.css` but is not loaded by this design.
+
+The homepage banner is `images/research-banner.png`, an original AI-generated conceptual illustration of rod-shaped molecular assemblies. It is decorative, not a chemical structure or experimental result. To replace it, upload a landscape image and update the image reference and dimensions in `_pages/about.html`. The banner caption should identify conceptual art when appropriate.
+
+The homepage and footer contain the displayed biography and affiliation. Edit `_pages/about.html`, `_includes/masthead.html`, and `_includes/footer.html` when changing those details.
 
 ## Local preview
 
