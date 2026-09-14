@@ -111,6 +111,32 @@ main { outline: none; }
 .research-direction .direction-number { margin-bottom: 16px; }
 .research-jump-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 28px 0 10px; font-size: 13px; }
 .research-jump-links a { padding: 6px 0; }
+.home-applications { padding-block: 78px 0; scroll-margin-top: 30px; }
+.applications-intro { max-width: 760px; margin-bottom: 34px; }
+.application-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px; }
+.application-card { border-top: 3px solid var(--gold); padding-top: 23px; min-width: 0; display: flex; flex-direction: column; scroll-margin-top: 30px; }
+.application-card h3 { font-size: 27px; line-height: 1.25; }
+.application-card h3 a { color: var(--ink); }
+.application-card p { font-size: 15px; line-height: 1.8; }
+.application-card .application-label { color: var(--accent); font-size: 12px; font-weight: 600; margin-bottom: 14px; }
+.application-card .application-stage { margin-top: auto; margin-bottom: 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; line-height: 1.65; }
+.application-card .text-link { margin-top: 14px; font-size: 12px; }
+.editing-preview { display: flex; align-items: center; justify-content: space-between; gap: 35px; background: var(--soft); padding: 30px 34px; margin-top: 38px; }
+.editing-preview .eyebrow { margin-bottom: 10px; }
+.editing-preview h3 { font-size: 24px; margin-bottom: 12px; }
+.editing-preview p:last-child { font-size: 15px; max-width: 730px; margin: 0; }
+.editing-preview > .text-link { flex-shrink: 0; }
+.research-applications { margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--line); scroll-margin-top: 30px; }
+.research-applications > h2 { margin-top: 0; font-size: 33px; max-width: 700px; }
+.research-applications .application-grid { margin-top: 32px; gap: 30px; }
+.translation-note { border-block: 1px solid var(--line); padding-block: 24px; margin: 32px 0 0; font-size: 15px; }
+.gene-editing-direction { display: grid; grid-template-columns: .85fr 1.4fr; gap: 42px; padding: 38px 34px; margin-top: 40px; background: var(--soft); border-top: 3px solid var(--gold); scroll-margin-top: 30px; }
+.gene-editing-direction h2 { margin-top: 0; font-size: 33px; }
+.gene-editing-direction p { font-size: 15px; }
+.gene-editing-direction .research-status { font-size: 11px; }
+.gene-editing-direction .editing-question { font-size: 19px; color: var(--ink); line-height: 1.6; }
+.published-foundation-heading { padding-top: 58px; scroll-margin-top: 20px; }
+.published-foundation-heading h2 { margin-top: 0; font-size: 33px; }
 .published-study { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.4fr); gap: 40px; align-items: start; padding-top: 42px; padding-bottom: 22px; }
 .published-study::after { display: none; }
 .published-study h2 { scroll-margin-top: 120px; }
@@ -201,6 +227,13 @@ th { background: var(--soft); font-size: 13px; color: var(--ink); font-weight: 6
   .research-overview h3 { font-size: 21px; }
 }
 @media (max-width: 850px) {
+  .application-grid, .gene-editing-direction { grid-template-columns: 1fr; }
+  .application-grid { gap: 30px; }
+  .application-card h3 br { display: none; }
+  .application-card .application-stage { padding-top: 12px; }
+  .editing-preview { align-items: flex-start; flex-direction: column; gap: 22px; }
+  .gene-editing-direction { gap: 10px; }
+  .home-applications { padding-top: 55px; }
   .published-study { grid-template-columns: 1fr; gap: 25px; }
   .study-copy p { font-size: 16px; }
   .study-figure { width: 100%; max-width: 650px; }
@@ -232,6 +265,8 @@ th { background: var(--soft); font-size: 13px; color: var(--ink); font-weight: 6
   .footer-main { align-items: flex-start; }
 }
 @media (max-width: 520px) {
+  .home-applications .section-heading h2, .research-applications > h2, .gene-editing-direction h2, .published-foundation-heading h2 { font-size: 29px; }
+  .editing-preview, .gene-editing-direction { padding: 26px 22px; }
   body { font-size: 16px; }
   .wordmark { font-size: 23px; }
   .wordmark-subtitle { font-size: 8px; letter-spacing: .1px; }

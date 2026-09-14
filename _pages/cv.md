@@ -5,7 +5,7 @@ permalink: /cv/
 intro: Biomedical engineering, bioinspired nanomaterials, and therapeutic delivery.
 ---
 
-<a class="button button-primary" href="{{ '/files/Jinhyung-Lee-CV.pdf?v=20260913-cv2' | relative_url }}">Download CV <span class="filetype">PDF</span> <span aria-hidden="true">↓</span></a>
+<a class="button button-primary" href="{{ '/files/Jinhyung-Lee-CV.pdf?v=20260913-cv3' | relative_url }}">Download CV <span class="filetype">PDF</span> <span aria-hidden="true">↓</span></a>
 <p class="small-note">Updated September 2026.</p>
 
 ## Research appointments

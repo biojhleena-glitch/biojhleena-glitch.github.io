@@ -2,18 +2,37 @@
 title: Research
 eyebrow: Materials → delivery → function
 permalink: /research/
-intro: Engineering nanomaterials that connect molecular design with therapeutic action.
+intro: RNA therapeutics and gene editing for osteoarthritis, kidney disease, and solid tumors.
 ---
 
 A therapeutic molecule can only work if it reaches the right place. I engineer nanomaterials around two connected challenges: **moving through dense tissue and releasing therapeutic cargo inside cells**.
 
-My work uses Janus base nanomaterials—small molecules that assemble through interactions inspired by DNA—to connect material structure with delivery and biological function. Three published studies trace this approach from RNA delivery to tissue transport and combination therapy.
+My work uses **Janus base nanopieces (JBNps)** and related Janus base nanomaterials—carriers assembled through interactions inspired by DNA—to connect material structure with delivery and biological function. I am applying this platform to **osteoarthritis, kidney disease, and solid tumors**, while extending its capabilities toward **CRISPR–Cas9 delivery**.
 
 <nav class="research-jump-links" aria-label="Research themes">
-  <a href="#rna-delivery--endosomal-escape">01 · RNA delivery</a>
-  <a href="#nanoparticle-design--tissue-transport">02 · Tissue transport</a>
-  <a href="#combination-therapy--cancer-models">03 · Combination therapy</a>
+  <a href="#therapeutic-applications">Therapeutic applications</a>
+  <a href="#crispr-cas9">CRISPR–Cas9</a>
+  <a href="#published-foundation">Published studies</a>
 </nav>
+
+<section id="therapeutic-applications" class="research-applications" aria-labelledby="application-research-title">
+  <p class="eyebrow">From delivery to disease</p>
+  <h2 id="application-research-title">A platform built around therapeutic needs.</h2>
+  <p>Each application starts with a different biological barrier. The shared strategy is to adapt carrier assembly and cargo delivery, then measure whether reaching the target changes a disease-relevant outcome.</p>
+  <div class="application-grid">
+    <article id="osteoarthritis" class="application-card"><p class="application-label">01 · Osteoarthritis</p><h3>Reach the joint.<br> Preserve function.</h3><p>Cartilage presents a dense matrix that can limit access to its cells. I am developing local RNA delivery approaches to help therapeutic cargo reach cartilage and other joint tissues.</p><p><strong>Therapeutic goal.</strong> Modulate inflammatory pathways and protect cartilage, connecting delivery with joint tissue responses and functional outcomes in preclinical models.</p><p class="application-stage">Current preclinical research · Conference-reported OA studies</p><a class="text-link" href="#rna-delivery--endosomal-escape">RNA-delivery foundation <span aria-hidden="true">↓</span></a></article>
+    <article id="kidney-disease" class="application-card"><p class="application-label">02 · Kidney disease</p><h3>Direct delivery<br> to kidney tissues.</h3><p>Therapeutic activity depends on reaching the relevant cells within an organ. I am investigating how JBNp formulations can support delivery to kidney tissues for RNA therapy and gene-editing applications.</p><p><strong>Therapeutic goal.</strong> Establish a delivery platform for future interventions in kidney disease by evaluating tissue distribution, intracellular access, and functional cargo delivery.</p><p class="application-stage">Current research direction · Proof-of-concept studies in progress</p><a class="text-link" href="#crispr-cas9">Gene-editing direction <span aria-hidden="true">↓</span></a></article>
+    <article id="solid-tumors" class="application-card"><p class="application-label">03 · Solid tumors</p><h3>Penetrate tumors.<br> Address resistance.</h3><p>Dense tumor tissue and drug resistance create barriers at different scales. My published work investigates rod-shaped carriers for tumor penetration and sphere-like carriers for drug–siRNA co-delivery to suppress a resistance pathway.</p><p><strong>Therapeutic goal.</strong> Improve access to tumor cells and pair complementary treatments. Published studies evaluated delivery and antitumor activity in ovarian cancer cell, spheroid, and mouse models.</p><p class="application-stage">Published preclinical evidence</p><a class="text-link" href="#combination-therapy--cancer-models">Combination-therapy study <span aria-hidden="true">↓</span></a></article>
+  </div>
+  <p class="translation-note"><strong>The translational focus:</strong> connect where a carrier goes with what its cargo does. Across these applications, the next steps are disease-specific efficacy, tolerability, and reproducible formulation.</p>
+</section>
+
+<section id="crispr-cas9" class="gene-editing-direction" aria-labelledby="editing-title">
+  <div><p class="research-status">Current research</p><h2 id="editing-title">JBNp delivery<br> for CRISPR–Cas9.</h2><p class="editing-question">Can the carrier make gene editing accessible in the tissues that need it?</p></div>
+  <div><p>I am extending JBNp technology beyond RNA-mediated gene silencing to the delivery of CRISPR–Cas9 components. The aim is a nonviral delivery platform that protects gene-editing cargo, supports cellular entry and intracellular release, and enables editing at the intended site.</p><p>My current focus connects <strong>cargo packaging, tissue-directed delivery, and functional editing</strong>. Early proof-of-concept work motivates further evaluation of editing efficiency, specificity, and tolerability in relevant models, including the development of kidney-directed applications.</p><p>This direction builds on the intracellular delivery foundation established in my <a href="https://doi.org/10.1073/pnas.2104511118">PNAS study</a>. Gene editing is an active research area within the platform; therapeutic benefit must be established separately for each disease.</p><a class="text-link" href="https://2023bmesannual.eventscribe.net/fsPopup.asp?PosterID=607986&amp;mode=posterInfo" target="_blank" rel="noopener">CRISPR delivery · BMES 2023 abstract <span aria-hidden="true">↗</span></a></div>
+</section>
+
+<div id="published-foundation" class="published-foundation-heading"><p class="eyebrow">Published foundation</p><h2>Materials, delivery, and therapeutic function.</h2><p>Three studies establish the experimental foundation for these applications, from intracellular RNA delivery to tumor transport and combination therapy.</p></div>
 
 <section class="research-direction published-study" aria-labelledby="rna-delivery--endosomal-escape">
   <div class="study-copy">
@@ -73,17 +92,17 @@ My work uses Janus base nanomaterials—small molecules that assemble through in
 <p class="research-status">Looking ahead</p>
 <h2 id="vision-title">Future research vision</h2>
 
-My goal is to establish an independent research program in **targeted RNA nanomedicine for inflammatory and degenerative diseases**. Building on my experience in therapeutic delivery, I plan to pursue three connected directions:
+My goal is to establish an independent research program in **RNA therapeutics and gene-editing delivery for osteoarthritis, kidney disease, and solid tumors**. Building on published delivery studies and current platform development, I plan to pursue three connected directions:
 
 - **Material design for biological barriers.** Link carrier composition, assembly, and geometry to tissue transport and intracellular release.
-- **Disease-relevant models.** Use engineered tissue models to connect nanoparticle distribution with cellular responses and therapeutic function.
-- **Targeted RNA therapeutics.** Evaluate RNA delivery as a way to influence disease processes while measuring efficacy, tolerability, and the limits of each approach.
+- **Disease-relevant models.** Connect distribution and cargo function with joint tissue responses, kidney delivery, and tumor penetration using models suited to each application.
+- **RNA therapy and gene editing.** Develop JBNp delivery for therapeutic RNA and CRISPR–Cas9, evaluating each modality’s efficacy, specificity, and tolerability.
 
 The aim is to develop a clearer relationship between what a carrier is made of, where it goes, and what its cargo does.
 </section>
 
 ## Collaboration & translation
 
-Moving a delivery technology forward requires more than a formulation. My experience spans nanomaterial synthesis, imaging, biological evaluation, and collaboration across engineering and disease biology.
+Moving a delivery technology forward requires a connection between material design and a therapeutic need. I bring experience in nanomaterial synthesis, imaging, and biological evaluation to collaborations in joint disease, kidney disease, and cancer. My aim is to connect delivery measurements with functional outcomes and build the evidence needed for translation.
 
 [Explore all publications]({{ '/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=5KHBwwkAAAAJ&hl=en) · [Get in touch]({{ '/contact/' | relative_url }})
