@@ -1,13 +1,13 @@
 ---
 title: Research
-eyebrow: Materials → delivery → function
+eyebrow: Nanomaterials → delivery → function
 permalink: /research/
 intro: RNA therapeutics and gene editing for osteoarthritis, kidney disease, and solid tumors.
 ---
 
 A therapeutic molecule can only work if it reaches the right place. I engineer nanomaterials around two connected challenges: **moving through dense tissue and releasing therapeutic cargo inside cells**.
 
-My work uses **Janus base nanopieces (JBNps)** and related Janus base nanomaterials—carriers assembled through interactions inspired by DNA—to connect material structure with delivery and biological function. I am applying this platform to **osteoarthritis, kidney disease, and solid tumors**, while extending its capabilities toward **CRISPR–Cas9 delivery**.
+My work uses **Janus base nanopieces (JBNps)** and related Janus base nanomaterials—carriers assembled through interactions inspired by DNA—to connect nanomaterial structure with delivery and biological function. I am applying this platform to **osteoarthritis, kidney disease, and solid tumors**, while extending its capabilities toward **CRISPR–Cas9 delivery**.
 
 <nav class="research-jump-links" aria-label="Research themes">
   <a href="#therapeutic-applications">Therapeutic applications</a>
@@ -32,7 +32,7 @@ My work uses **Janus base nanopieces (JBNps)** and related Janus base nanomateri
   <div><p>I am extending JBNp technology beyond RNA-mediated gene silencing to the delivery of CRISPR–Cas9 components. The aim is a nonviral delivery platform that protects gene-editing cargo, supports cellular entry and intracellular release, and enables editing at the intended site.</p><p>My current focus connects <strong>cargo packaging, tissue-directed delivery, and functional editing</strong>. Early proof-of-concept work motivates further evaluation of editing efficiency, specificity, and tolerability in relevant models, including the development of kidney-directed applications.</p><p>This direction builds on the intracellular delivery foundation established in my <a href="https://doi.org/10.1073/pnas.2104511118">PNAS study</a>. Gene editing is an active research area within the platform; therapeutic benefit must be established separately for each disease.</p><a class="text-link" href="https://2023bmesannual.eventscribe.net/fsPopup.asp?PosterID=607986&amp;mode=posterInfo" target="_blank" rel="noopener">CRISPR delivery · BMES 2023 abstract <span aria-hidden="true">↗</span></a></div>
 </section>
 
-<div id="published-foundation" class="published-foundation-heading"><p class="eyebrow">Published foundation</p><h2>Materials, delivery, and therapeutic function.</h2><p>Three studies establish the experimental foundation for these applications, from intracellular RNA delivery to tumor transport and combination therapy.</p></div>
+<div id="published-foundation" class="published-foundation-heading"><p class="eyebrow">Published foundation</p><h2>Nanomaterials, delivery, and therapeutic function.</h2><p>Three studies establish the experimental foundation for these applications, from intracellular RNA delivery to tumor transport and combination therapy.</p></div>
 
 <section class="research-direction published-study" aria-labelledby="rna-delivery--endosomal-escape">
   <div class="study-copy">
@@ -47,8 +47,8 @@ My work uses **Janus base nanopieces (JBNps)** and related Janus base nanomateri
     <a class="text-link" href="https://doi.org/10.1073/pnas.2104511118">Read the paper ↗</a>
   </div>
   <figure class="study-figure">
-    <a class="study-image" href="{{ '/images/pnas-2021-endosomal-escape.jpg?v=figure1' | relative_url }}" aria-label="View full-size PNAS Figure 1: nanopiece assembly and cellular uptake"><img src="{{ '/images/pnas-2021-endosomal-escape.jpg?v=figure1' | relative_url }}" width="677" height="914" alt="Published Figure 1 showing siRNA nanopiece assembly, material characterization, microscopy of cellular uptake, and uptake-inhibition experiments" loading="lazy" decoding="async"></a>
-    <figcaption><strong>Nanopiece assembly and cellular uptake.</strong> Material characterization, electron microscopy, and confocal imaging examine siRNA-containing nanopieces and their entry into cells.<br><span class="figure-credit">Lee et al., <em>PNAS</em> (2021), <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8126792/#fig01">Figure 1</a>. Reproduced unchanged under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</span><a class="figure-expand" href="{{ '/images/pnas-2021-endosomal-escape.jpg?v=figure1' | relative_url }}">View full-size figure ↗</a></figcaption>
+    <a class="study-image" href="{{ '/images/pnas-2021-endosomal-escape.jpg?v=figure1' | relative_url }}" aria-label="View full-size PNAS Figure 1: nanopiece assembly and cellular uptake"><img src="{{ '/images/pnas-2021-endosomal-escape.jpg?v=figure1' | relative_url }}" width="677" height="914" alt="Published Figure 1 showing siRNA nanopiece assembly, nanomaterial characterization, microscopy of cellular uptake, and uptake-inhibition experiments" loading="lazy" decoding="async"></a>
+    <figcaption><strong>Nanopiece assembly and cellular uptake.</strong> Nanomaterial characterization, electron microscopy, and confocal imaging examine siRNA-containing nanopieces and their entry into cells.<br><span class="figure-credit">Lee et al., <em>PNAS</em> (2021), <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8126792/#fig01">Figure 1</a>. Reproduced unchanged under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</span><a class="figure-expand" href="{{ '/images/pnas-2021-endosomal-escape.jpg?v=figure1' | relative_url }}">View full-size figure ↗</a></figcaption>
   </figure>
 </section>
 
@@ -94,7 +94,7 @@ My work uses **Janus base nanopieces (JBNps)** and related Janus base nanomateri
 
 My goal is to establish an independent research program in **RNA therapeutics and gene-editing delivery for osteoarthritis, kidney disease, and solid tumors**. Building on published delivery studies and current platform development, I plan to pursue three connected directions:
 
-- **Material design for biological barriers.** Link carrier composition, assembly, and geometry to tissue transport and intracellular release.
+- **Nanomaterial design for biological barriers.** Link carrier composition, assembly, and geometry to tissue transport and intracellular release.
 - **Disease-relevant models.** Connect distribution and cargo function with joint tissue responses, kidney delivery, and tumor penetration using models suited to each application.
 - **RNA therapy and gene editing.** Develop JBNp delivery for therapeutic RNA and CRISPR–Cas9, evaluating each modality’s efficacy, specificity, and tolerability.
 
@@ -103,6 +103,6 @@ The aim is to develop a clearer relationship between what a carrier is made of, 
 
 ## Collaboration & translation
 
-Moving a delivery technology forward requires a connection between material design and a therapeutic need. I bring experience in nanomaterial synthesis, imaging, and biological evaluation to collaborations in joint disease, kidney disease, and cancer. My aim is to connect delivery measurements with functional outcomes and build the evidence needed for translation.
+Moving a delivery technology forward requires a connection between nanomaterial design and a therapeutic need. I bring experience in nanomaterial synthesis, imaging, and biological evaluation to collaborations in joint disease, kidney disease, and cancer. My aim is to connect delivery measurements with functional outcomes and build the evidence needed for translation.
 
 [Explore all publications]({{ '/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=5KHBwwkAAAAJ&hl=en) · [Get in touch]({{ '/contact/' | relative_url }})
