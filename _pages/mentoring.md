@@ -26,7 +26,6 @@ For this graduate course in the Department of Bioengineering, I led weekly discu
 
 ## Professional service
 
-- Reviewer, *ASSAY and Drug Development Technologies* (2026).
 - Member, Orthopaedic Research Society.
 - Member, American College of Rheumatology.
 - Member, Biomedical Engineering Society.
