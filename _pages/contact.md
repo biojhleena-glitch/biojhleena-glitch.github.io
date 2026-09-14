@@ -11,7 +11,9 @@ intro: Let’s connect about research, teaching, and opportunities to build what
 Postdoctoral Research Associate  
 Department of Biomedical Engineering  
 University of Connecticut  
-Storrs, Connecticut, USA
+Engineering and Science Building (ESB)<br>
+67 N Eagleville Rd<br>
+Storrs, CT 06269, USA
 
 <a class="contact-email" href="mailto:jinhyung.lee@uconn.edu">jinhyung.lee@uconn.edu <span aria-hidden="true">↗</span></a>
 </div>
