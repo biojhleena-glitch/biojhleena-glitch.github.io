@@ -338,6 +338,11 @@ th { background: var(--soft); font-size: 13px; color: var(--ink); font-weight: 6
 .research-story-art { margin: 0; }
 .research-story-art img { width: 100%; height: auto; display: block; }
 .research-story-art figcaption { font-size: 11px; line-height: 1.6; color: var(--muted); margin-top: 14px; }
+.research-movie { display: block; width: 100%; height: auto; background: #000; }
+.research-movie:focus-visible { outline: 3px solid var(--gold); outline-offset: 5px; }
+.movie-title { display: block; font-size: 17px; color: var(--ink); margin-bottom: 8px; }
+.movie-description { display: block; font-size: 13px; line-height: 1.7; color: var(--body); }
+.movie-credit { display: block; margin-top: 10px; }
 .research-story-copy h2 { font-size: 34px; line-height: 1.23; margin: 0 0 23px; }
 .research-story-copy > p:not(.eyebrow) { font-size: 17px; line-height: 1.75; }
 .barrier-list { list-style: none; margin: 27px 0; padding: 0; }

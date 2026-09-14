@@ -57,6 +57,17 @@
       menu.focus();
     }
   });
+  // Enable autoplay only after checking the visitor's motion preference.
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  document.querySelectorAll('video[data-autoplay]').forEach(video => {
+    const updatePlayback = () => {
+      video.autoplay = !reducedMotion.matches;
+      if (reducedMotion.matches) video.pause();
+      else video.play().catch(() => {});
+    };
+    updatePlayback();
+    reducedMotion.addEventListener('change', updatePlayback);
+  });
   const search = document.querySelector('#publication-search');
   if (!search) return;
   document.querySelector('.publication-tools').hidden = false;
