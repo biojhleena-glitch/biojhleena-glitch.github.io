@@ -84,8 +84,6 @@ The aim is to develop a clearer relationship between what a carrier is made of, 
 
 ## Collaboration & translation
 
-Moving a delivery technology forward requires more than a formulation. My experience spans nanomaterial synthesis, imaging, biological evaluation, and collaboration across engineering and disease biology. I am also a named inventor on a U.S. patent licensed by UConn to Eascra Biotechnologies.
-
-As coordinating investigator for a multi-institutional International Space Station spatial-omics collaboration, I work across UConn, UC Davis, Eascra Biotechnologies, Axiom Space, the ISS National Laboratory, and NASA. These experiences inform the collaborative research program I aim to build.
+Moving a delivery technology forward requires more than a formulation. My experience spans nanomaterial synthesis, imaging, biological evaluation, and collaboration across engineering and disease biology.
 
 [Explore all publications]({{ '/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=5KHBwwkAAAAJ&hl=en) · [Get in touch]({{ '/contact/' | relative_url }})
