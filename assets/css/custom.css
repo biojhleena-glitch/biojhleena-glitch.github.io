@@ -183,6 +183,7 @@ main { outline: none; }
 .book-entry h3 { font-size: 23px; }
 .book-entry p:not(.publication-meta) { font-size: 14px; color: var(--muted); }
 .book-entry a { font-size: 13px; }
+.book-entry h3 a { font: inherit; color: var(--ink); }
 .mentoring-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; border-block: 1px solid var(--line); padding-block: 32px; margin-block: 36px; }
 .mentoring-grid h3 { font-size: 23px; }
 .mentoring-grid p { font-size: 15px; margin-bottom: 0; }
