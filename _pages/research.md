@@ -7,7 +7,7 @@ intro: RNA therapeutics and gene editing for osteoarthritis, kidney disease, and
 
 A therapeutic molecule can only work if it reaches the right place. I engineer nanomaterials around two connected challenges: **moving through dense tissue and releasing therapeutic cargo inside cells**.
 
-My work uses **Janus base nanopieces (JBNps)** and related Janus base nanomaterials—carriers assembled through interactions inspired by DNA—to connect nanomaterial structure with delivery and biological function. I am applying this platform to **osteoarthritis, kidney disease, and solid tumors**, while extending its capabilities toward **CRISPR–Cas9 delivery**.
+My work uses **Janus base nanoparticles (JBNps)** and related Janus base nanomaterials—carriers assembled through interactions inspired by DNA—to connect nanomaterial structure with delivery and biological function. I am applying this platform to **osteoarthritis, kidney disease, and solid tumors**, while extending its capabilities toward **CRISPR–Cas9 delivery**.
 
 <nav class="research-jump-links" aria-label="Research themes">
   <a href="#therapeutic-applications">Therapeutic applications</a>

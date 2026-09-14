@@ -29,7 +29,7 @@ RNA delivery, Janus base nanomaterials, and engineered tissue models for osteoar
 Biomedical Engineering, University of Connecticut  
 Advisor: Yupeng Chen
 
-Intracellular RNA delivery using DNA-inspired Janus base nanopieces; platform development and characterization.
+Intracellular RNA delivery using DNA-inspired Janus base nanoparticles; platform development and characterization.
 </div>
 
 ## Education
