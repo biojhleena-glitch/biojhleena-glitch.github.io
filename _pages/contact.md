@@ -21,4 +21,4 @@ I welcome conversations about faculty opportunities, research collaborations, an
 **Research profile:** [ORCID 0000-0002-8058-3511](https://orcid.org/0000-0002-8058-3511)  
 **Publications:** [Google Scholar](https://scholar.google.com/citations?user=5KHBwwkAAAAJ&hl=en)<br>
 **Affiliation:** [UConn Biomedical Engineering](https://bme.uconn.edu/)  
-**Background:** [Download my CV]({{ '/files/Jinhyung-Lee-CV.pdf' | relative_url }})
+**Background:** [Download my CV]({{ '/files/Jinhyung-Lee-CV.pdf?v=20260913-cv' | relative_url }})
