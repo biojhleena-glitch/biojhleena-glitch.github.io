@@ -5,7 +5,7 @@ permalink: /cv/
 intro: Biomedical engineering, bioinspired nanomaterials, and therapeutic delivery.
 ---
 
-<a class="button button-primary" href="{{ '/files/Jinhyung-Lee-CV.pdf?v=20260913-cv' | relative_url }}">Download CV <span class="filetype">PDF</span> <span aria-hidden="true">↓</span></a>
+<a class="button button-primary" href="{{ '/files/Jinhyung-Lee-CV.pdf?v=20260913-cv2' | relative_url }}">Download CV <span class="filetype">PDF</span> <span aria-hidden="true">↓</span></a>
 <p class="small-note">Updated September 2026.</p>
 
 ## Research appointments
@@ -30,16 +30,6 @@ Biomedical Engineering, University of Connecticut
 Advisor: Yupeng Chen
 
 Intracellular RNA delivery using DNA-inspired Janus base nanopieces; laboratory synthesis and characterization infrastructure.
-</div>
-
-<div class="timeline-item" markdown="1">
-<span class="timeline-date">2017–2018</span>
-
-### Researcher
-
-Brain Science Institute, Korea Institute of Science and Technology, Seoul
-
-GPCR-based FRET biosensors for neurotransmitter detection.
 </div>
 
 ## Education
