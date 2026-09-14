@@ -42,7 +42,9 @@ The homepage and footer contain the displayed biography and affiliation. Edit `_
 
 ## Published research figures
 
-The Research page features three unaltered figures from peer-reviewed publications: PNAS (2021), Figure 2; Journal of Controlled Release (2025), Figure 1; and Materials Today Advances (2026), Figure 1. Each figure includes a source link, author attribution, CC BY 4.0 license link, and a full-size view. Images are stored locally in `images/`; captions and research summaries are in `_pages/research.md`. The homepage also features the same three credited published figures and retains the separate conceptual illustration.
+The Research page features three unaltered figures from peer-reviewed publications: PNAS (2021), Figure 1; Journal of Controlled Release (2025), Figure 1; and Materials Today Advances (2026), Figure 1. Each figure includes a source link, author attribution, CC BY 4.0 license link, and a full-size view. Images are stored locally in `images/`; captions and research summaries are in `_pages/research.md`. The homepage also features the same three credited published figures and retains the separate conceptual illustration.
+
+The downloadable CV uses the user-supplied PDF, with previously excluded material removed from the public copy. Preserve this version when updating other website content.
 
 ## Local preview
 
