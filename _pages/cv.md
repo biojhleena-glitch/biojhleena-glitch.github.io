@@ -18,7 +18,7 @@ intro: Biomedical engineering, bioinspired nanomaterials, and therapeutic delive
 Biomedical Engineering, University of Connecticut  
 Advisor: Yupeng Chen
 
-RNA delivery, Janus base nanomaterials, and engineered tissue models for osteoarthritis research.
+RNA delivery, Janus base nanomaterials, and engineered tissue models for osteoarthritis, kidney, solid tumor research.
 </div>
 
 <div class="timeline-item" markdown="1">
@@ -29,7 +29,7 @@ RNA delivery, Janus base nanomaterials, and engineered tissue models for osteoar
 Biomedical Engineering, University of Connecticut  
 Advisor: Yupeng Chen
 
-Intracellular RNA delivery using DNA-inspired Janus base nanopieces; laboratory synthesis and characterization infrastructure.
+Intracellular RNA delivery using DNA-inspired Janus base nanopieces; platform development and characterization.
 </div>
 
 ## Education
@@ -62,6 +62,7 @@ Co-investigators: Yupeng Chen and Chuan-Ju Liu.
 ## Patents
 
 1. Chen Y, Lee J, Zhang W. **Therapeutic nanomaterials.** U.S. Patent 12,214,043 B2; issued February 4, 2025. Assignee: University of Connecticut.
+   <br><span class="small-note">U.S. Patent 12,214,043 B2 is licensed by UConn to Eascra Biotechnologies. The licensed Janus base technology supports NASA-funded microgravity research aboard the International Space Station.</span>
 2. Chen Y, Zhang W, Lee J. **Nanomaterial delivery vehicle and method of use thereof.** U.S. Patent Application Publication 2025/0302762 A1; published October 2, 2025.
 3. Seong J, Lee J, Kim H, Choo H. **Biosensor based on fluorescence resonance energy transfer for detecting of antipsychotic medicine and detection method for using same.** Korean Patent KR 10-2176538 B1; granted November 9, 2020.
 
