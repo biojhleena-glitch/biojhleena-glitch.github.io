@@ -92,13 +92,13 @@ My work uses **Janus base nanoparticles (JBNps)** and related Janus base nanomat
 <p class="research-status">Looking ahead</p>
 <h2 id="vision-title">Future research vision</h2>
 
-My goal is to establish an independent research program in **RNA therapeutics and gene-editing delivery for osteoarthritis, kidney disease, and solid tumors**. Building on published delivery studies and current platform development, I plan to pursue three connected directions:
+My future research will develop **DNA-inspired nanomaterials for cell-selective CRISPR–Cas9 delivery and immune modulation**. I plan to establish delivery and target validation in rheumatoid arthritis, then extend these principles to the central nervous system (CNS):
 
-- **Nanomaterial design for biological barriers.** Link carrier composition, assembly, and geometry to tissue transport and intracellular release.
-- **Disease-relevant models.** Connect distribution and cargo function with joint tissue responses, kidney delivery, and tumor penetration using models suited to each application.
-- **RNA therapy and gene editing.** Develop JBNp delivery for therapeutic RNA and CRISPR–Cas9, evaluating each modality’s efficacy, specificity, and tolerability.
+- **Rheumatoid arthritis.** Develop nanomaterials for functional delivery to inflammatory joint macrophages, establishing a foundation for gene modulation in validated disease pathways.
+- **CNS vasculitis.** Investigate transport from cerebrospinal fluid to inflamed neurovascular tissues and identify immune-cell targets using human disease samples.
+- **CNS immunoengineering.** Explore CRISPR–Cas9 editing and CRISPR interference to modulate disease-relevant immune pathways, guided by cell-selective delivery and validated targets.
 
-The aim is to develop a clearer relationship between what a carrier is made of, where it goes, and what its cargo does.
+Gene-editing studies will follow delivery and target validation, with evaluation of specificity, off-target activity, safety, and functional benefit.
 </section>
 
 ## Collaboration & translation
