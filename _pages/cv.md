@@ -71,6 +71,6 @@ Co-investigators: Yupeng Chen and Chuan-Ju Liu.
 - **Chonnam National University Medical School Seminar**, Republic of Korea, 2026 — invited talk on DNA-inspired Janus base nanoparticles for drug delivery.
 - **Biomaterials and Biofabrication Conference**, USA, 2025 — invited talk on computation-aided design of rod-shaped Janus base nanotubes.
 - **Kyung Hee University College of Medicine Seminar**, Republic of Korea, 2024 — invited talk on DNA-inspired nanopieces for biomedical drug delivery.
-- **Orthopaedic Research Society Annual Meeting**, 2024 — podium presentation on mRNA delivery for osteoarthritis treatment.
+- **Orthopaedic Research Society Annual Meeting**, 2024 — invited podium presentation on Janus base nanoparticle delivery of mRNA therapeutics for osteoarthritis. <a href="https://www.ors.org/transactions/2024/252.pdf" target="_blank" rel="noopener" title="Opens in a new tab">Abstract 252 (PDF) ↗</a>
 
 [View all publications]({{ '/publications/' | relative_url }}) · [Teaching and mentoring]({{ '/mentoring/' | relative_url }})
