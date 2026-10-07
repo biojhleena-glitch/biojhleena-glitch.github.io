@@ -29,7 +29,7 @@ analytics:
   # Visitor statistics: sign up at https://www.goatcounter.com/signup and put your
   # site code here (e.g. "jinhyunglee" for https://jinhyunglee.goatcounter.com).
   # Leave empty to turn tracking off.
-  goatcounter: ""
+  goatcounter: "jinhyunglee"
 # Google Search Console: remove the "#" and paste the content="..." value of the
 # HTML-tag verification method.
 # google_site_verification: "PASTE-CODE-HERE"
